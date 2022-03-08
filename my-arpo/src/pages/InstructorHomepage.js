@@ -1,45 +1,37 @@
-import React, { Component } from 'react'
-import Card from '../components/Card'
+import React from 'react'
 
-export default class InstructorHomepage extends Component {
+export default function InstructorHomepage(props) {
 
-    constructor(props) {
-      super(props)
-    
-      this.state = {
-         instructorCards : [
-             {
-                title : "Notification",
-                desc : "Some quick example text to build on the card title and make up the bulk of the card's content."
+    return (
+        <>
+            {/* <div>InstructorHomepage</div> */}
+            {/* <div>
+                <img src="" class="img-fluid">Help</img>
+            </div> */}
 
-             },
-             {
-                title : "Important Links",
-                desc : "Some quick example text to build on the card title and make up the bulk of the card's content."
-             },
-             {
-                title : "Institute News",
-                desc : "Some quick example text to build on the card title and make up the bulk of the card's content."
-             },             
-        ],
-      }
-    }
+            <div class="container px-4 py-4">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="h-75 p-3 border">Notifications</div>
+                    </div>
+                    <div class="col">
+                        <div class="h-75 p-3 border bg-green">Important Links
 
-    render() {
-        return (
-            
-            <div>
-
-                <div className='d-flex justify-content-around'>
-                    {
-                        this.state.instructorCards.map((data,id) => (
-                            <Card title={data.title} desc={data.desc} key={id}/>
-                        ))
-                    }
+                            <p>
+                                <a href="https://www.iitk.ac.in/doaa/" > <h6>DOAA Website</h6> </a>
+                                <a href="https://pingala.iitk.ac.in/IITK-0/login" > Pingala</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-75 p-3 border bg-green">Institute News</div>
+                    </div>
                 </div>
-                
             </div>
 
-        )
-    }
+        </>
+
+    )
 }
+
+
