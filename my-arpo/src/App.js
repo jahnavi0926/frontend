@@ -2,16 +2,16 @@ import './App.css';
 import LoginPage from './pages/LoginPage';
 import StudentDashboard from './pages/StudentDashboard';
 import InstructorHomepage from './pages/InstructorHomepage';
-import { GenQueryaddition } from './pages/GenQueryaddition';
-import { PrivateQueryaddition} from './pages/PrivateQueryaddition'
+// import { GenQueryAddition } from './pages/GenQueryAddition';
+// import { PrivateQueryAddition} from './pages/PrivateQueryAddition'
 function App() {
   return (
     <div className="App ">
       {/* <LoginPage /> */}
       {/* <StudentDashboard /> */}
-      {/* <InstructorHomepage />
-      <GenQueryaddition /> */}
-      <PrivateQueryaddition />
+       <InstructorHomepage />
+       {/* <GenQueryAddition />  */}
+      {/* <PrivateQueryAddition /> */}
     </div>
   );
 }
