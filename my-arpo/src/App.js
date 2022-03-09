@@ -9,9 +9,9 @@ function App() {
     <div className="App ">
       {/* <LoginPage /> */}
       {/* <StudentDashboard /> */}
-      {/* <InstructorHomepage />
-      <GenQueryaddition /> */}
-      <PrivateQueryaddition />
+       <InstructorHomepage />
+      {/*<GenQueryaddition /> */}
+      {/* <PrivateQueryaddition /> */}
     </div>
   );
 }
