@@ -3,12 +3,12 @@ import SubjectDescription from '../components/ForumViewDescription'
 
 function ForumView() {
   return (<>
-    <div ><h2>View Forum</h2></div>
+    <div ><h2>Forum</h2></div>
 
-    {/* Anonymous toggle */}
+    {/* Mark it resolved/unresolved */}
     <div className="form-check form-switch" textAlign='right'>
       <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
-      
+      <label className="form-check-label" for="flexSwitchCheckDefault"><p class="text-left">Resolve</p></label>
     </div>
     < SubjectDescription />
 
