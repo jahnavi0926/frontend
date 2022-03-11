@@ -22,9 +22,9 @@ function App() {
        {/* <GenQueryAddition />  */}
       {/* <PrivateQueryAddition /> */}
       {/* <ForumView/> */}
-      {/* <DashboardForumQuery/>
-      <InstructorForumDasboard/> */}
-      <AddNotification/>
+       <DashboardForumQuery/>
+     {/* <InstructorForumDasboard/> */}
+      {/* <AddNotification/> */}
     </div>
   );
 }

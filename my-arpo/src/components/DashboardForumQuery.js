@@ -9,6 +9,8 @@ function DashboardForumQuery() {
             <PostNotificationComp />
             <PostNotificationComp />
             <PostNotificationComp />
+            {/* add button */}
+            <button type="button" class="btn btn-primary">Add New Post</button>
         </>
     )
 }
