@@ -11,6 +11,7 @@ function InstructorForumDasboard() {
             {/* add button */}
              <button type="button" class="btn btn-primary">Reject selected </button>
             <DashboardForumQuery />
+            <button type="button" class="btn btn-primary">Add New Post</button>
         </>
 
     )

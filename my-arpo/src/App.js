@@ -8,6 +8,7 @@ import ForumView from './pages/ForumView';
 import DashboardForumQuery from './components/DashboardForumQuery';
 import InstructorForumDasboard from './pages/InstructorForumDasboard';
 import AddNotification from './pages/AddNotification'
+import NotifDashboard from './pages/NotifDashboard';
 function App() {
   return (
     <div className="App ">
@@ -22,7 +23,8 @@ function App() {
        {/* <GenQueryAddition />  */}
       {/* <PrivateQueryAddition /> */}
       {/* <ForumView/> */}
-       <DashboardForumQuery/>
+       {/* <DashboardForumQuery/> */}
+       <NotifDashboard/>
      {/* <InstructorForumDasboard/> */}
       {/* <AddNotification/> */}
     </div>
