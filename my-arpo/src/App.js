@@ -9,24 +9,32 @@ import DashboardForumQuery from './components/DashboardForumQuery';
 import InstructorForumDasboard from './pages/InstructorForumDasboard';
 import AddNotification from './pages/AddNotification'
 import NotifDashboard from './pages/NotifDashboard';
+import Profile from './pages/Profile';
+import HelpDesk from './pages/HelpDesk';
+import Table from './components/Table';
+import Participants from './pages/Participants';
 function App() {
   return (
     <div className="App ">
-      {/* <LoginPage /> */}
-      {/* <StudentDashboard /> */}
+      {/* { <LoginPage /> } */}
+      {/* { <StudentDashboard /> } */}
 
-       {/* <InstructorHomepage /> */}
-      {/*<GenQueryaddition /> */}
-      {/* <PrivateQueryaddition /> */}
+       {/* { <InstructorHomepage /> } */}
+      {<GenQueryAddition /> }
+      {/* { <PrivateQueryAddition /> } */}
 
-       {/* <InstructorHomepage /> */}
+       {/* { <InstructorHomepage /> } */}
        {/* <GenQueryAddition />  */}
       {/* <PrivateQueryAddition /> */}
       {/* <ForumView/> */}
        {/* <DashboardForumQuery/> */}
-       <NotifDashboard/>
+       {/* <NotifDashboard/> */}
      {/* <InstructorForumDasboard/> */}
       {/* <AddNotification/> */}
+      {<Profile/>}
+      {<HelpDesk/>}
+      {<Participants/>}
+   
     </div>
   );
 }
